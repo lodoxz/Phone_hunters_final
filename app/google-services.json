@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617847681585",
+    "project_id": "phone-hunters-final-login",
+    "storage_bucket": "phone-hunters-final-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617847681585:android:6f9a9bf3af64af44365b10",
+        "android_client_info": {
+          "package_name": "com.example.phone_hunters_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617847681585-4mab5klvblftbtnlci6cn6dvhutmtnej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDijX1GNCbcL_lG7u9J35SgbZbiCpoZhwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617847681585-4mab5klvblftbtnlci6cn6dvhutmtnej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

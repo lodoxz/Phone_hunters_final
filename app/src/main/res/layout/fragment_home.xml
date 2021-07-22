@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#002F80"
+tools:context=".ui.home.HomeFragment">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="#002F80"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm1"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/apple"
+                    style="@style/Widget.App.Chip"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm2"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/samsung"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm3"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/huawei"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm4"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/honor"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm5"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/asus"
+                    style="@style/Widget.App.Chip" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm6"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/lg"
+                    style="@style/Widget.App.Chip"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm7"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/motorola"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm8"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/oppo"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm9"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/xiaomi"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipimm10"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    app:textStartPadding="10dp"
+                    android:text="@string/google"
+                    style="@style/Widget.App.Chip" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview2" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:text="3.0"
+                android:textSize="30sp"
+                android:textAlignment="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:text="8.0"
+                android:textSize="30sp"
+                android:textAlignment="center">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+            <com.google.android.material.slider.RangeSlider
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/r1"
+                android:layout_marginTop="0dp"
+                android:stepSize="1"
+                android:contentDescription="@string/slider1"
+                android:layout_marginLeft="45dp"
+                android:valueFrom="3.0"
+                android:valueTo="8.0"
+                app:thumbColor="@color/black"
+                app:trackColorActive="@color/black"
+                app:trackColorInactive="#c0c0c0"
+                app:haloColor="#c0c0c0"
+                app:values="@array/initial_slider_values">
+
+            </com.google.android.material.slider.RangeSlider>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview7" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip4"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="38dp"
+                    app:textStartPadding="20dp"
+                    android:text="@string/superamoled"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip5"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/amoled"
+                    app:textStartPadding="40dp"
+                    style="@style/Widget.App.Chip"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip6"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="38dp"
+                    app:textStartPadding="60dp"
+                    android:text="@string/ips"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip7"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/retina"
+                    app:textStartPadding="40dp"
+                    style="@style/Widget.App.Chip"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/textView10"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/risoluzione_schermo" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/gruppo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip26"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/hd"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip27"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/hd_plus" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip28"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/fhd"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip29"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/fhd_plus"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip30"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/qhd"/>
+                </com.google.android.material.chip.ChipGroup>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/gruppo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip31"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/qhd_plus"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip32"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/uhd"
+                    style="@style/Widget.App.Chip"/>
+                </com.google.android.material.chip.ChipGroup>
+
+                <Button
+                    android:id="@+id/button5"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="15mm"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Reset"
+                    android:onClick="onClick2"
+                    android:textColor="#002F80"
+
+                    app:rippleColor="#002F80" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview3" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/gruppo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip8"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB4"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip9"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB8"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip10"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB16" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip11"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB32"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip12"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB64"/>
+                </com.google.android.material.chip.ChipGroup>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/gruppo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip13"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB128"
+                    style="@style/Widget.App.Chip"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip14"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB256"
+                    style="@style/Widget.App.Chip"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip15"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB512"
+                    style="@style/Widget.App.Chip"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip16"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/TB1"
+                    style="@style/Widget.App.Chip"/>
+                </com.google.android.material.chip.ChipGroup>
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    app:rippleColor="#002F80"
+                    android:textColor="#002F80"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick3"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="Reset" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview4" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/gruppo5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip17"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB1"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip18"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB2" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip19"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB3"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip20"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB4"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip21"
+                    style="@style/Widget.App.Chip"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB6"/>
+                </com.google.android.material.chip.ChipGroup>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/gruppo6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip22"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB8"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip23"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB10"
+                    style="@style/Widget.App.Chip"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip24"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB12"
+                    style="@style/Widget.App.Chip" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip25"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/GB16"
+                    style="@style/Widget.App.Chip"/>
+                </com.google.android.material.chip.ChipGroup>
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:textColor="#002F80"
+                    app:rippleColor="#002F80"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick4"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:text="Reset" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview5" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t3"
+                    android:text="0.0"
+                    android:textSize="30sp"
+                    android:textAlignment="center">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t4"
+                    android:text="50.0"
+                    android:textSize="30sp"
+                    android:textAlignment="center">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <com.google.android.material.slider.RangeSlider
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:stepSize="1"
+                android:id="@+id/r2"
+                android:contentDescription="@string/slider1"
+                android:valueFrom="0"
+                android:valueTo="50"
+                android:layout_marginLeft="45dp"
+                app:thumbColor="@color/black"
+                app:trackColorActive="@color/black"
+                app:trackColorInactive="#c0c0c0"
+                app:haloColor="#c0c0c0"
+                app:values="@array/initial_slider_values2">
+
+            </com.google.android.material.slider.RangeSlider>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Fotocamera_int" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t5"
+                    android:text="0.0"
+                    android:textSize="30sp"
+                    android:textAlignment="center">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t6"
+                    android:text="50.0"
+                    android:textSize="30sp"
+                    android:textAlignment="center">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <com.google.android.material.slider.RangeSlider
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:id="@+id/r3"
+                android:stepSize="1"
+                android:contentDescription="@string/slider1"
+                android:valueFrom="0"
+                android:valueTo="50"
+                android:layout_marginLeft="45dp"
+                app:thumbColor="@color/black"
+                app:trackColorActive="@color/black"
+                app:trackColorInactive="#c0c0c0"
+                app:haloColor="#c0c0c0"
+                app:values="@array/initial_slider_values2">
+
+            </com.google.android.material.slider.RangeSlider>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capacità_batteria" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t7"
+                    android:text="1000.0"
+                    android:textSize="30sp"
+                    android:textAlignment="center">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t8"
+                    android:text="10000.0"
+                    android:textSize="30sp"
+                    android:textAlignment="center">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <com.google.android.material.slider.RangeSlider
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:id="@+id/r4"
+                android:stepSize="1"
+                android:contentDescription="@string/slider1"
+                android:valueFrom="1000"
+                android:valueTo="18000"
+                android:layout_marginLeft="45dp"
+                app:thumbColor="@color/black"
+                app:trackColorActive="@color/black"
+                app:trackColorInactive="#c0c0c0"
+                app:haloColor="#c0c0c0"
+                app:values="@array/initial_slider_values3">
+
+            </com.google.android.material.slider.RangeSlider>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottone_inizia_ricerca"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:text="@string/inizia"
+        android:textColor="@color/white"
+        android:onClick="onClick5"
+        app:icon="@drawable/ic_baseline_search_24"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917"
+        app:rippleColor="@color/white"
+        app:strokeColor="@color/white"
+        app:strokeWidth="4dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Phone_hunters_final</string>
+
+    <string name="inizia">INIZIA LA RICERCA</string>
+    <string name="title_activity_pagina_inizia">MainActivity</string>
+    <string name="title_home">home</string>
+    <string name="title_login">login</string>
+    <string name="title_preferiti">preferiti</string>
+
+    <string name="textview">MARCA e MODELLO</string>
+    <string name="textview2">DIMENSIONI DISPLAY</string>
+    <string name="textview3">MEMORIA DI MASSA</string>
+    <string name="textview4">MEMORIA RAM</string>
+    <string name="textview5">FOTOCAMERA ESTERNA</string>
+    <string name="textview7">TIPO DI DISPLAY</string>
+    <string name="slider1"></string>
+    <string name="textview8">3</string>
+    <string name="textview9">8</string>
+    <string name="amoled">AMOLED</string>
+    <string name="superamoled">SUPERAMOLED</string>
+    <string name="ips">IPS</string>
+    <string name="retina">RETINA</string>
+    <string name="GB4">4GB</string>
+    <string name="GB8">8GB</string>
+    <string name="GB16">16GB</string>
+    <string name="GB32">32GB</string>
+    <string name="GB64">64GB</string>
+    <string name="GB128">128GB</string>
+    <string name="GB256">256GB</string>
+    <string name="GB512">512GB</string>
+    <string name="TB1">1TB</string>
+    <string name="GB1">1GB</string>
+    <string name="GB2">2GB</string>
+    <string name="GB3">3GB</string>
+    <string name="GB6">6GB</string>
+    <string name="GB10">10GB</string>
+    <string name="GB12">12GB</string>
+    <string name="button">Fascia bassa</string>
+    <string name="bottone">Reset</string>
+    <string name="Fotocamera_int">FOTOCAMERA INTERNA</string>
+    <string name="capacità_batteria">CAPACITA BATTERIA</string>
+    <string name="hd">HD</string>
+    <string name="hd_plus">HD+</string>
+    <string name="fhd">FHD</string>
+    <string name="fhd_plus">FHD+</string>
+    <string name="qhd">QHD</string>
+    <string name="qhd_plus">QHD+</string>
+    <string name="uhd">UHD</string>
+    <string name="risoluzione_schermo">RISOLUZIONE SCHERMO</string>
+    <string name="title_activity_pagina_principale">MainActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home_page">MainActivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="textview_email">Indirizzo e-mail</string>
+    <string name="textview_password">Password</string>
+    <string name="button_login">ACCEDI</string>
+    <string name="button_registrati">Non sei ancora registrato?</string>
+    <string name="inserisci_username">USERNAME</string>
+    <string name="inserisci_email">E-MAIL</string>
+    <string name="inserisci_password">PASSWORD</string>
+    <string name="conferma_password">CONFERMA PASSWORD</string>
+    <string name="registrati">REGISTRATI</string>
+    <string name="textview_nome_smartphone">Nome Smartphone</string>
+    <string name="textview_prezzo_smartphone">700 Euro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link_iphone_11"><a href="https://www.apple.com/shop/buy-iphone/iphone-11">Maggiori informazioni</a></string>
+    <string name="link_iphone_xr"><a href="https://www.apple.com/shop/buy-iphone/iphone-xr">Maggiori informazioni</a></string>
+    <string name="link_iphone_12"><a href="https://www.apple.com/shop/buy-iphone/iphone-12">Maggiori informazioni</a></string>
+    <string name="link_iphone_x"><a href="https://www.apple.com/shop/product/FQA52LL/A/refurbished-iphone-x">Maggiori informazioni</a></string>
+    <string name="link_iphone_xs"><a href="https://www.apple.com/shop/product/FT952LL/A/refurbished-iphone-xs">Maggiori informazioni</a></string>
+
+    <string name="link_s21"><a href="https://www.samsung.com/it/smartphones/galaxy-s21-5g/">Maggiori informazioni</a></string>
+    <string name="link_s21ultra"><a href="https://www.samsung.com/it/smartphones/galaxy-s21-5g/">Maggiori informazioni</a></string>
+    <string name="link_zfold2"><a href="https://www.samsung.com/it/smartphones/galaxy-z-fold2/">Maggiori informazioni</a></string>
+    <string name="link_zflip"><a href="https://www.samsung.com/it/smartphones/galaxy-z-flip/">Maggiori informazioni</a></string>
+    <string name="link_pixel"><a href="https://store.google.com/it/product/pixel_4a?hl=it">Maggiori informazioni</a></string>
+    <string name="link_velvet"><a href="https://www.lg.com/it/telefoni-cellulari/lg-lmg900emaitcis">Maggiori informazioni</a></string>
+    <string name="link_wing"><a href="https://www.lg.com/it/telefoni-cellulari/lg-lmf100emwaitcik">Maggiori informazioni</a></string>
+    <string name="link_g100"><a href="https://www.motorola.it/smartphones-moto-g-100/p">Maggiori informazioni</a></string>
+    <string name="link_razr"><a href="https://www.motorola.it/smartphones-razr/p">Maggiori informazioni</a></string>
+    <string name="link_p40pro"><a href="https://consumer.huawei.com/it/phones/p40-pro/">Maggiori informazioni</a></string>
+    <string name="link_mate40pro"><a href="https://consumer.huawei.com/it/phones/mate40-pro/">Maggiori informazioni</a></string>
+    <string name="link_zenphone8"><a href="https://www.asus.com/it/Mobile/Phones/ZenFone/Zenfone-8/">Maggiori informazioni</a></string>
+    <string name="link_rog"><a href="https://rog.asus.com/it/phones/rog-phone-5-model/">Maggiori informazioni</a></string>
+    <string name="link_mi11"><a href="https://www.mi.com/it/mi-11/">Maggiori informazioni</a></string>
+    <string name="link_note10"><a href="https://www.mi.com/it/product/redmi-note-10">Maggiori informazioni</a></string>
+    <string name="link_note20"><a href="https://www.samsung.com/it/smartphones/galaxy-note20/">Maggiori informazioni</a></string>
+    <string name="link_reno5"><a href="https://www.oppo.com/en/smartphones/series-reno/reno5-5g/">Maggiori informazioni</a></string>
+
+
+
+    <string name="apple">APPLE</string>
+    <string name="samsung">SAMSUNG</string>
+    <string name="huawei">HUAWEI</string>
+    <string name="honor">HONOR</string>
+    <string name="xiaomi">XIAOMI</string>
+    <string name="lg">LG</string>
+    <string name="motorola">MOTOROLA</string>
+    <string name="oppo">OPPO</string>
+    <string name="asus">ASUS</string>
+    <string name="google">GOOGLE</string>
+
+</resources>
